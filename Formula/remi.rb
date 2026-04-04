@@ -27,6 +27,7 @@ class Remi < Formula
       #!/bin/bash
       exec "#{Formula["node"].opt_bin}/node" "#{libexec}/dist/cli/index.js" "$@"
     SH
+    (bin/"remi").chmod 0755
 
     # Install shell completions
     generate_completions_from_executable(bin/"remi", "completions")
