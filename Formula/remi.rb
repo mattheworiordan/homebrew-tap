@@ -2,7 +2,7 @@ class Remi < Formula
   desc "The missing CLI for Apple Reminders — with section support and iCloud sync"
   homepage "https://github.com/mattheworiordan/remi"
   url "https://github.com/mattheworiordan/remi/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "5ab30cca20e8eba4e9bb5ed16b8550a042d78b25dd8b3c4ac897e36a039bde02"
   license "MIT"
 
   depends_on "node"
