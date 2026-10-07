@@ -1,8 +1,8 @@
 class Gistgrep < Formula
   desc "Search your GitHub gists at the speed of grep — with AI summaries"
   homepage "https://github.com/mattheworiordan/gistgrep"
-  url "https://github.com/mattheworiordan/gistgrep/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "ff7b08fdd7022424c15ee5a2cb6808f3a1c873b82b4d2826255f4add6b313460"
+  url "https://github.com/mattheworiordan/gistgrep/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "7cc0bb3102b7c6de6e1c5837123c84f2fb6c0e33767f3685c3f6b7ca2718f6f8"
   license "MIT"
 
   depends_on "gh"
